@@ -2,7 +2,7 @@
   "name": "ninja-food",
   "version": "1.0.0",
   "description": "A Net Ninja Tutorial for Learning Tailwind CSS",
-  "main": "index.js",
+  "main": "index.html",
   "scripts": {
     "build:css": "tailwindcss build src/styles.css -o public/style.css"
   },
