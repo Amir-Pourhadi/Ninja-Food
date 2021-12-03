@@ -24,7 +24,7 @@
 
           <ul class="text-sm mt-6 hidden md:block" id="menu">
             <li class="text-gray-700 font-bold py-1">
-              <a class="px-4 flex justify-end border-r-4 border-primary" href="#">
+              <a href="#" class="px-4 flex justify-end border-r-4 border-primary">
                 <span>Home</span>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -44,7 +44,7 @@
             </li>
 
             <li class="py-1">
-              <a class="px-4 flex justify-end border-r-4 border-white" href="#">
+              <a href="#" class="px-4 flex justify-end border-r-4 border-white">
                 <span>About</span>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -64,7 +64,7 @@
             </li>
 
             <li class="py-1">
-              <a class="px-4 flex justify-end border-r-4 border-white" href="#">
+              <a href="#" class="px-4 flex justify-end border-r-4 border-white">
                 <span>Contact</span>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -119,9 +119,9 @@
           >
         </div>
 
-        <header>
-          <h2 class="text-gray-700 text-6xl font-semibold">Recipes</h2>
-          <h3 class="text-2xl font-semibold">For Ninjas</h3>
+        <header class="mt-4">
+          <h2 class="text-gray-700 text-6xl font-semibold leading-none tracking-wider">Recipes</h2>
+          <h3 class="text-2xl font-semibold tracking-wider">For Ninjas</h3>
         </header>
 
         <div>
@@ -130,9 +130,9 @@
           <div class="mt-8 grid lg:grid-cols-3 gap-10">
             <!-- Cards -->
             <div class="card hover:shadow-lg">
-              <img class="w-full object-cover h-32 sm:h-48" src="images/stew.jpg" alt="stew" />
+              <img src="images/stew.jpg" class="w-full object-cover h-32 sm:h-48" alt="stew" />
               <div class="m-4">
-                <span class="font-bold">5 Bean Chilli Stew</span>
+                <span class="font-bold">5 Bean Chili Stew</span>
                 <span class="block text-gray-500 text-sm">Recipe by Mario</span>
               </div>
               <div class="badge">
@@ -157,7 +157,7 @@
             <div class="card hover:shadow-lg">
               <img class="w-full object-cover h-32 sm:h-48" src="images/noodles.jpg" alt="noodles" />
               <div class="m-4">
-                <span class="font-bold">5 Bean Chilli Stew</span>
+                <span class="font-bold">Veg Noodles</span>
                 <span class="block text-gray-500 text-sm">Recipe by Mario</span>
               </div>
               <div class="badge">
@@ -182,7 +182,7 @@
             <div class="card hover:shadow-lg">
               <img class="w-full object-cover h-32 sm:h-48" src="images/curry.jpg" alt="curry" />
               <div class="m-4">
-                <span class="font-bold">5 Bean Chilli Stew</span>
+                <span class="font-bold">Tofu Curry</span>
                 <span class="block text-gray-500 text-sm">Recipe by Mario</span>
               </div>
               <div class="badge">
@@ -207,17 +207,92 @@
 
           <h4 class="font-bold pb-2 mt-12 border-b border-gray-200">Most Popular</h4>
 
-          <div class="mt-8">
+          <div class="mt-8 grid lg:grid-cols-3 gap-10">
             <!-- Cards -->
+            <div class="card hover:shadow-lg">
+              <img src="images/stew.jpg" class="w-full object-cover h-32 sm:h-48" alt="stew" />
+              <div class="m-4">
+                <span class="font-bold">5 Bean Chili Stew</span>
+                <span class="block text-gray-500 text-sm">Recipe by Mario</span>
+              </div>
+              <div class="badge">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="w-5 inline-block"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="{2}"
+                    d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
+                  />
+                </svg>
+                <span>25 mins</span>
+              </div>
+            </div>
+
+            <div class="card hover:shadow-lg">
+              <img class="w-full object-cover h-32 sm:h-48" src="images/noodles.jpg" alt="noodles" />
+              <div class="m-4">
+                <span class="font-bold">Veg Noodles</span>
+                <span class="block text-gray-500 text-sm">Recipe by Mario</span>
+              </div>
+              <div class="badge">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="w-5 inline-block"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="{2}"
+                    d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
+                  />
+                </svg>
+                <span>25 mins</span>
+              </div>
+            </div>
+
+            <div class="card hover:shadow-lg">
+              <img class="w-full object-cover h-32 sm:h-48" src="images/curry.jpg" alt="curry" />
+              <div class="m-4">
+                <span class="font-bold">Tofu Curry</span>
+                <span class="block text-gray-500 text-sm">Recipe by Mario</span>
+              </div>
+              <div class="badge">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="w-5 inline-block"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="{2}"
+                    d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
+                  />
+                </svg>
+                <span>25 mins</span>
+              </div>
+            </div>
           </div>
         </div>
 
-        <div class="flex justify-center">
+        <div class="mt-12 flex justify-center">
           <div
             class="
               btn
               bg-secondary-100
               text-secondary-200
+              inline-block
               hover:shadow-inner
               transform
               hover:scale-125 hover:bg-opacity-50
