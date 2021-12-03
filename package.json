@@ -1,12 +1,16 @@
 {
-  "name": "ninjafood",
+  "name": "ninja-food",
   "version": "1.0.0",
-  "description": "",
+  "description": "A Net Ninja Tutorial for Learning Tailwind CSS",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
+  "scripts": {},
+  "keywords": [
+    "tailwind",
+    "css",
+    "tailwindcss",
+    "tailwindcss-ninja",
+    "tailwindcss-ninja-food"
+  ],
+  "author": "Amir Pourhadi",
   "license": "ISC"
 }
