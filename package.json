@@ -4,7 +4,7 @@
   "description": "A Net Ninja Tutorial for Learning Tailwind CSS",
   "main": "index.js",
   "scripts": {
-    "build:css": "tailwindcss build src/styles.css -o public/styles.css"
+    "build:css": "tailwindcss build src/styles.css -o public/style.css"
   },
   "keywords": [
     "tailwind",
