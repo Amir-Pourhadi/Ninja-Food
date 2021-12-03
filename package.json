@@ -12,5 +12,8 @@
     "tailwindcss-ninja-food"
   ],
   "author": "Amir Pourhadi",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "tailwindcss": "^1.4.6"
+  }
 }
